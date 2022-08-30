@@ -27,6 +27,6 @@ $$P_{ij}(t+1) = \sum_{l = 1}^NP_{il}(t)W_{l \rightarrow j}$$
 O escrita en forma matricial:
 
 $$\vec{P}(t+1) = \vec{P}(t)\widehat{W}$$
-$$\vec{P}(t)v = \vec{P}(0)\widehat{W}^t$$
+$$\vec{P}(t) = \vec{P}(0)\widehat{W}^t$$
 
 El proceso markoviano simulado es uno de dos estados representado por la siguiente cadena:
