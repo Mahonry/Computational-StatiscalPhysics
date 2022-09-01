@@ -57,14 +57,11 @@ $$
     \end{bmatrix} 
 $$
 
-$$
-    \langle T_{ij} \rangle = 
+$$ \langle T_{ij} \rangle = 
     \begin{bmatrix}
     \frac{P + q}{q}  & \frac{1}{P} \\
     \frac{1}{q} & \frac{P + q}{q}
-    \end{bmatrix}
-
-$$
+    \end{bmatrix} $$
 
 Para simular este proceso, los códigos son:
 
