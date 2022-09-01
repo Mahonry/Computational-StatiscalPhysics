@@ -1,6 +1,6 @@
-# Computational Statiscal Physics (Monte Carlo Simulations) 
+# Computational Statiscal Physics
 
-# Random Walkers (Caminantes Aleatorios)
+## [Caminantes Aleatorios](https://en.wikipedia.org/wiki/Random_walk)
 
 Lo primero que simulamos es un caminante aleatorio en una dimension donde la densidad de probabilidad esta dada por la ecuación.
 
@@ -18,7 +18,7 @@ Los codigos de esta simulacion son:
 
 - [Random_Walk_Ensemble](https://github.com/Mahonry/StatiscalPhysics/blob/main/Random_Walk_Ensemble.cpp): Simula un ensamble de caminantes aleatorios en un una dimension, basados en un número aletorio de una distribución gaussiana, regresa un archivos con las posiciones X en el ensamble al tiempo t.
 
-# [Cadenas de Markov](https://es.wikipedia.org/wiki/Cadena_de_M%C3%A1rkov)
+## [Cadenas de Markov](https://es.wikipedia.org/wiki/Cadena_de_M%C3%A1rkov)
 
 Para un proceso Markoviano el sistema evolucion con una ecuación maestra de la forma:
 
@@ -37,7 +37,7 @@ El proceso markoviano simulado es uno de dos estados representado por la siguien
        width = "200"> 
 </p>
 
-Para este sistma la matriz de transición se escribe como:
+Para el sistma la matriz de transición se escribe como:
 
 $$\widehat{W} = 
     \begin{bmatrix}
