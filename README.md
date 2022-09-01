@@ -56,6 +56,7 @@ $$
     \langle T_{1 \rightarrow 0} \rangle & \langle T_{1 \rightarrow 1} \rangle
     \end{bmatrix} 
 $$
+
 $$
     \langle T_{ij} \rangle = 
     \begin{bmatrix}
@@ -65,7 +66,7 @@ $$
 
 $$
 
-Para simular este proceso, los codigos son:
+Para simular este proceso, los códigos son:
 
 - [FST_first_step_time](https://github.com/Mahonry/StatiscalPhysics/blob/main/FST_first_step_time.cpp): Barre las probabilidades de **P** desde 0.01 hasta 0.5, nos devuelve un archivo que contiene la probabilidad y los tiempos de primer paso, es decir, los tiempos de pasar del estado 0 al estado 1 para cada una de las probabilidades. Con base en estos resultados podemos calcular el tiempo medio de primer paso.
 
