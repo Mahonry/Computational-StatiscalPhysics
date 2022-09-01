@@ -54,7 +54,10 @@ $$
     \begin{bmatrix}
     \langle T_{0 \rightarrow 0} \rangle & \langle T_{0 \rightarrow 1} \rangle \\
     \langle T_{1 \rightarrow 0} \rangle & \langle T_{1 \rightarrow 1} \rangle
-    \end{bmatrix} = 
+    \end{bmatrix} 
+$$
+$$
+    \langle T_{ij} \rangle = 
     \begin{bmatrix}
     \frac{P + q}{q}  & \frac{1}{P} \\
     \frac{1}{q} & \frac{P + q}{q}
