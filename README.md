@@ -37,7 +37,7 @@ El proceso markoviano simulado es uno de dos estados representado por la siguien
        width = "200"> 
 </p>
 
-Para el sistma la matriz de transición se escribe como:
+Para el sistema la matriz de transición se escribe como:
 
 $$\widehat{W} = 
     \begin{bmatrix}
@@ -70,3 +70,6 @@ Para simular este proceso, los códigos son:
 - [FRT_first_return_time](https://github.com/Mahonry/StatiscalPhysics/blob/main/FRT_first_return_time.cpp): Barre las probabilidades de **P** desde 0.01 hasta 0.5, nos devuelve un archivo que contiene la probabilidad y los tiempos de primer restorn, es decir, los tiempos de pasar del estado 0 y regresar al estado 0 para cada una de las probabilidades. Con base en estos resultados podemos calcular el tiempo medio de primer retorno.
 
 - [Two_level_FST](https://github.com/Mahonry/StatiscalPhysics/blob/main/Two_Level_FST.cpp): Incorpora y simplifica los dos códigos anteriores, donde el parametro target nos indica el proceso a calcular (ya sea primer paso o retorno).
+
+### Caminante aleatorio en un anillo
+
