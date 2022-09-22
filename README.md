@@ -73,3 +73,40 @@ Para simular este proceso, los códigos son:
 
 ### Caminante aleatorio en un anillo
 
+El siguiente caso de estudio, es el de un caminante aletorio dentro de un anillo, donde el caminante comienza en un nodo aletorio y apartir de ahi tiene igual probabilidad de pasar a alguno de sus vecinos, la estructura considerada se muestra en la siguiente imagen:
+
+
+<p align="center">
+  <img src="./images/Ring.png"
+       width = "200"> 
+</p>
+
+En la imagen se muestra un anillo de 10 nodos, sin embargo, el caminante fue simulado en una red de 50 nodos, nuevamente el obejtivo fue medir los tiempos medios de primer paso $\langle T_{ij} \rangle$, en este caso tenemos que la expresion analitica que describe este proceso esta dada por:
+
+$$
+\langle T_{ij} \rangle = N \left[ \delta_{ij} +\frac{1}{N}\sum_{ l = 2}^N \frac{1-Cos(\phi_l(i-j))}{1-Cos(\phi_l)} \right]
+$$
+
+Con $N$ = número de nodos y
+
+$$
+\phi_l = \frac{2 \pi}{N}(l - 1)
+$$
+
+El resultado de la simulación de los tiempos medios de primer paso, por nodo, se muestra en la siguiente figura.:
+
+<p align="center">
+  <img src="./images/t_ring.png"
+       width = "200"> 
+</p>
+
+El codigo que genera la simulación es:  [Caminante_Aleatorio_Anillo](https://github.com/Mahonry/StatiscalPhysics/blob/main/Caminante_Aletorio_Anillo.cpp).
+
+Otro resultado producto de la simulacion es el conteo de frecuencias de los tiempos por nodo, recordemos que el tiempo medio de primer paso $\langle T_{ij} \rangle$, es un promedio sobre experimentos repetidos que evaluan el tiempo de llegar del nodo $i$ al nodo $j$, por lo tanto podemos sacar la distribución de probabilidad de estos, estas distribuciones se encuentran en la sigueinte figura:
+
+<p align="center">
+  <img src="./images/distribution_ring.png"
+       width = "200"> 
+</p>
+
+### Caminante aleatorio en una red
